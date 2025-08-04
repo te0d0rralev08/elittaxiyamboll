@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #222;
+  line-height: 1.6;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color:  #13ba1b;
+  color: rgb(0, 0, 0);
+  position: relative;
+
+    border-bottom: 3px solid #333;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  margin-right: 20px;
+}
+
+
+.top-buttons {
+  margin-left: auto;
+}
+
+.top-buttons a {
+  background-color:  #13ba1b;
+  color: #fffefe;
+  padding: 8px 16px;
+  margin-left: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.top-buttons a:hover {
+  background-color: #000000;
+}
+
+
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+
+.contact-section h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.contact-section h2 {
+  margin-top: 30px;
+  color: #333;
+  border-bottom: 2px solid  #13ba1b;
+  padding-bottom: 5px;
+}
+
+.contact-section p,
+.contact-section li,
+.contact-section a {
+  font-size: 1.1em;
+}
+
+.contact-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-section li {
+  margin-bottom: 8px;
+}
+
+
+.order-button {
+  display: inline-block;
+  margin-top: 20px;
+  background-color:  #13ba1b;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+  background-color:  #13ba1b;
+}
+
+
+footer {
+ text-align: center;
+  padding: 15px 0;
+  background-color: #13ba1b ;
+  color: #ffffff;
+  border-top: 1px solid #ddd;
+  font-size: 0.9em;
+  margin-top: 50px;
+}

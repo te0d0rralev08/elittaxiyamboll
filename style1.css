@@ -1,0 +1,155 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color:  #13ba1b;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+   border-bottom: 3px solid #333;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.top-buttons {
+  margin-left: auto;
+}
+
+.top-buttons a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 20px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.top-buttons a:hover {
+  background-color: #000000;
+  color: white;
+}
+
+
+main {
+  padding: 20px 10px 50px;
+}
+
+.about-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+.about-section h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  color: #222;
+}
+
+.about-section h2 {
+  margin-top: 40px;
+  color: #444;
+  border-bottom: 3px solid  #13ba1b;
+  padding-bottom: 8px;
+}
+
+.about-section p {
+  margin-top: 15px;
+  font-size: 1.1em;
+}
+
+.about-section ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+.about-section ul li {
+  margin-bottom: 8px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #13ba1b ;
+  color: #ffffff;
+  border-top: 1px solid #ddd;
+  font-size: 0.9em;
+  margin-top: 50px;
+}
+
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: 30px auto;
+  overflow: hidden;
+  border-radius: 8px;
+  height: 400px;
+}
+
+.slides {
+  width: 300%;
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.slide img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  font-size: 30px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 50%;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.prev:hover, .next:hover {
+  background-color: #13ba1b ;
+  color: white;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
