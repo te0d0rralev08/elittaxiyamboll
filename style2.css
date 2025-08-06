@@ -27,6 +27,8 @@ header {
 
 .top-buttons {
   margin-left: auto;
+  background-color:#13ba1b;
+  padding:15px 0;
 }
 
 .top-buttons a {
@@ -109,6 +111,7 @@ footer {
   margin-top: 50px;
 
 }
+
 
 
 
