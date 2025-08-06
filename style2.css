@@ -19,11 +19,11 @@ header {
 }
 
 nav.top-buttons {
-  background-color: transparent; /* Махаме зеления фон от тук */
+  background-color: transparent; 
 }
 
 nav.top-buttons a {
-  background-color: #13ba1b; /* Добавяме го само на бутоните */
+  background-color: #13ba1b; 
 
     border-bottom: 3px solid #333;
 }
@@ -33,10 +33,14 @@ nav.top-buttons a {
   margin-right: 20px;
 }
 .top-buttons {
+  .top-buttons {
   display: flex;
+  justify-content: center; 
   background-color: #13ba1b;
-  padding: 15px 20px;
-  border-radius: 5px; /* По избор */
+  padding: 15px 0;
+  width: 100%;
+}
+
 }
 
 
@@ -120,6 +124,7 @@ footer {
   margin-top: 50px;
 
 }
+
 
 
 
