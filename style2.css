@@ -31,14 +31,14 @@ header {
 }
 
 .top-buttons a {
-  background-color:  #13ba1b;
-  color: #fffefe;
-  padding: 8px 16px;
-  margin-left: 10px;
-  border-radius: 5px;
+  display: inline-block;
   text-decoration: none;
+  color: #ffffff;
   font-weight: bold;
-  transition: background-color 0.3s ease;
+  margin-left: 20px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .top-buttons a:hover {
@@ -109,3 +109,4 @@ footer {
   margin-top: 50px;
 
 }
+
