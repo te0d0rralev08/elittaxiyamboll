@@ -2,62 +2,47 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: #fdfdfd;
+  color: #222;
   line-height: 1.6;
 }
 
 
 header {
-  header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 10px 20px;
-  background-color: #f5f5f5;
-  border-bottom: 3px solid #333;
-}
-
-nav.top-buttons {
-  background-color: transparent; 
-}
-
-nav.top-buttons a {
-  background-color: #13ba1b; 
+  background-color:  #13ba1b;
+  color: rgb(0, 0, 0);
+  position: relative;
 
     border-bottom: 3px solid #333;
 }
+
 .logo {
   width: 60px;
   height: auto;
   margin-right: 20px;
 }
+
+
 .top-buttons {
-  .top-buttons {
-  display: flex;
-  justify-content: center; 
-  background-color: #13ba1b;
-  padding: 15px 0;
-  width: 100%;
+  margin-left: auto;
 }
-
-}
-
 
 .top-buttons a {
-  display: inline-block;
-  text-decoration: none;
-  color: #ffffff;
-  font-weight: bold;
-  margin-left: 20px;
+  background-color:  #13ba1b;
+  color: #fffefe;
   padding: 8px 16px;
+  margin-left: 10px;
   border-radius: 5px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
 .top-buttons a:hover {
   background-color: #000000;
-  
 }
 
 
@@ -122,7 +107,6 @@ footer {
   border-top: 1px solid #ddd;
   font-size: 0.9em;
   margin-top: 50px;
-
 }
 
 
