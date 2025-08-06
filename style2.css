@@ -9,16 +9,16 @@ body {
 
 
 header {
-  display: flex;
+   display: flex;
   align-items: center;
   padding: 10px 20px;
   background-color:  #13ba1b;
-  color: rgb(0, 0, 0);
-  position: relative;
-
-    border-bottom: 3px solid #333;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+   border-bottom: 3px solid #333;
 }
-
 .logo {
   width: 60px;
   height: auto;
@@ -107,4 +107,5 @@ footer {
   border-top: 1px solid #ddd;
   font-size: 0.9em;
   margin-top: 50px;
+
 }
