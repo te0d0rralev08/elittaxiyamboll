@@ -13,6 +13,8 @@ body {
     padding: 10px 20px;
     border-bottom: 3px solid #333;
      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 400px;
   }
   
   .logo {
@@ -64,7 +66,7 @@ body {
   .slider-container {
     position: relative;
   width: 100%;
-  max-width: 700px;
+  max-width: 400px;
   margin: 80px auto;
   overflow: hidden;
   border: 40px;
@@ -216,4 +218,5 @@ text-align: center;
 .order-button:hover {
   background-color:  #13ba1b;
 }
+
    
