@@ -65,7 +65,7 @@ body {
   .slider-container {
     position: relative;
   width: 100%;
-  max-width: 400px;
+  max-width: 700px;
   margin: 80px auto;
   overflow: hidden;
   border: 40px;
@@ -219,5 +219,6 @@ text-align: center;
 }
 
    
+
 
 
