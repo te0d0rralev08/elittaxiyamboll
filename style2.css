@@ -43,6 +43,7 @@ header {
 
 .top-buttons a:hover {
   background-color: #000000;
+  color: white;
 }
 
 
@@ -109,6 +110,7 @@ footer {
   margin-top: 50px;
 
 }
+
 
 
 
